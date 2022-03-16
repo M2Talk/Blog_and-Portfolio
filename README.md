@@ -21,13 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-# Blog-portfolio-study-project
-# blog-portfolio-project
-# blog-portfolio-project
-# blog-portfolio-project
-# Blog-portfolio-study-project
-# Blog-Portfolio
-# Blog-Portfolio
-# Blog_and_Portfolio
-# Blog_and-Portfolio
+
