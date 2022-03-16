@@ -63,3 +63,19 @@ Processing by BlogsController#index as HTML
 Completed 200 OK in 2467ms (Views: 2422.8ms | ActiveRecord: 4.2ms)
 
 
+Started GET "/blogs" for ::1 at 2022-03-16 17:14:21 +0100
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/application
+  [1m[36mBlog Load (2.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  ↳ app/views/blogs/index.html.erb:15
+  Rendered blogs/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 284ms (Views: 257.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/pages/home" for ::1 at 2022-03-16 18:07:07 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 411ms (Views: 402.8ms | ActiveRecord: 0.0ms)
+
+
