@@ -1,0 +1,38 @@
+<%= form_with(model: @portfolio_item, local: true) do |form| %>
+
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+  <hr>
+
+  <div class="field">
+    <%= form.label :subtitle %>
+    <%= form.text_field :subtitle %>
+  </div>
+  <hr>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body %>
+  </div>
+  <hr>
+
+  <div class="field">
+    <%= form.label :main_image %>
+    <%= form.text_area :main_image %>
+  </div>
+  <hr>
+
+  <div class="field">
+    <%= form.label :thumb_image %>
+    <%= form.text_area :thumb_image %>
+  </div>
+  <hr>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+
+<% end %>
